@@ -1,0 +1,118 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.8;
+    background-color: #121212;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1e1e1e;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+
+.story-banner {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 6px;
+    border: 1px solid #333;
+}
+
+.story-title {
+    text-align: center;
+    font-family: 'Georgia', serif;
+    color: #ffb74d;
+    margin-top: 20px;
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.table-of-contents {
+    background-color: #252525;
+    padding: 15px 25px;
+    border-left: 4px solid #ffb74d;
+    border-radius: 4px;
+    margin: 30px 0;
+}
+
+.toc-title {
+    margin: 0 0 10px 0;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.toc-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.toc-list li {
+    margin-bottom: 8px;
+}
+
+.toc-list h5 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.toc-list a {
+    color: #64b5f6;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.toc-list a:hover {
+    color: #ffb74d;
+    text-decoration: underline;
+}
+
+.story-content {
+    margin-top: 40px;
+}
+
+.chapter {
+    margin-bottom: 50px;
+    padding-top: 20px;
+    border-bottom: 1px dashed #333;
+    padding-bottom: 30px;
+}
+
+.chapter:last-child {
+    border-bottom: none;
+}
+
+.chapter-title {
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #ffb74d;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.chapter p {
+    font-size: 16px;
+    text-align: justify;
+    text-indent: 30px;
+    margin-bottom: 15px;
+    color: #cccccc;
+}
+
+.back-to-top {
+    display: inline-block;
+    font-size: 13px;
+    color: #888;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.back-to-top:hover {
+    color: #ffb74d;
+}
